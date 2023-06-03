@@ -1,0 +1,148 @@
+@import "./reset.css";
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #C1D0B5;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.leftside{
+    display: flex;
+    margin-left: 20%;
+    font-size: 26px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: left;
+    
+    
+}
+
+.logo-img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    border-right: 15px;
+}
+
+.rightside{
+    display: flex;
+    margin-right: 20%;
+    justify-content:center;
+    align-items: center;
+}
+
+.rightside li {
+    display: inline;
+}
+
+.rightside li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px 0 20px;
+}
+
+
+
+.banner{
+    
+    background-color: rgb(170, 245, 245);
+    padding: 130px 20%;
+    
+}
+
+.bannerCharacters{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.twoBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.btnOne{
+    
+    padding:12px 10px;
+    border-radius: 10px;
+    
+    box-shadow: 0 4px 10px rgba(135,167,171,0.5);
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    margin: 20px 10px 0 0; 
+}
+.btnTwo{
+    
+    padding:12px 10px;
+    border-radius: 10px;
+    background-color: #C1D0B5;
+    box-shadow: 0 4px 10px rgba(135,167,171,0.5);
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    margin: 20px 10px 0 0; 
+}
+
+.imageGallary {
+    width: 100% ;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.fourImages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 15px; 
+    width: 80%;
+    height: 60%;
+}
+
+.kanban {
+    width: 100%;
+    height: 100%; 
+    
+}
+
+.kanban img {
+    width: 100%;
+    height: 100%; 
+ 
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #C1D0B5;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerContent{
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+    text-align:justify;
+    color: #000;
+    margin: 0 20%;
+    gap:50px;
+    list-style-type: none;
+}
+
