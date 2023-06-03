@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Super-Bowl-Webpage/static/css/main.f4f7a23c.css",
+    "main.js": "/Super-Bowl-Webpage/static/js/main.c61c0236.js",
+    "static/media/Logo.png": "/Super-Bowl-Webpage/static/media/Logo.82fe82a62aaccfd02bf0.png",
+    "index.html": "/Super-Bowl-Webpage/index.html",
+    "main.f4f7a23c.css.map": "/Super-Bowl-Webpage/static/css/main.f4f7a23c.css.map",
+    "main.c61c0236.js.map": "/Super-Bowl-Webpage/static/js/main.c61c0236.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4f7a23c.css",
+    "static/js/main.c61c0236.js"
+  ]
+}
